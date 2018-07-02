@@ -1,0 +1,17 @@
+package com.gullskatten.services;
+
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+
+public class CalculatorTest {
+
+    @Test
+    public void shouldAddOnePlusOne() {
+
+        int i = 1;
+
+        final boolean isTwo = i + i == 2;
+        
+        assertEquals(isTwo, is(Boolean.TRUE));
+    }
+}
